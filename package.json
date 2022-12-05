@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fbsdk",
+  "name": "@dreaminfluencers/react-native-fbsdk",
   "version": "3.0.0",
   "description": "Facebook SDK support for React Native apps.",
   "main": "lib/commonjs/index.js",
@@ -24,8 +24,11 @@
     }
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/facebook/react-native-fbsdk.git"
+      "type": "git",
+      "url": "git://github.com/dreaminfluencers/react-native-fbsdk.git"
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://github.com/facebook/react-native-fbsdk/",
   "keywords": [
