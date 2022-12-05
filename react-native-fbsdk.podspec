@@ -2,14 +2,14 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, './', 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name          = package['name']
+  s.name          = 'react-native-fbsdk'
   s.version       = package['version']
   s.summary       = package['description']
   s.requires_arc  = true
   s.author        = { 'dzhuowen' => 'dzhuowen@fb.com' }
   s.license       = package['license']
   s.homepage      = package['homepage']
-  s.source        = { :git => 'https://github.com/dreaminfluencers/react-native-fbsdk.git', :tag => "v#{package['version']}" }
+  s.source        = { :git => 'https://github.com/facebook/react-native-fbsdk.git', :tag => "v3.0.0" }
   s.platforms     = { :ios => "9.0", :tvos => "9.2" }
   s.dependency      'React'
 
