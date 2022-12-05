@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author        = { 'dzhuowen' => 'dzhuowen@fb.com' }
   s.license       = package['license']
   s.homepage      = package['homepage']
-  s.source        = { :git => 'https://github.com/facebook/react-native-fbsdk.git', :tag => "v#{package['version']}" }
+  s.source        = { :git => 'https://github.com/dreaminfluencers/react-native-fbsdk.git', :tag => "v#{package['version']}" }
   s.platforms     = { :ios => "9.0", :tvos => "9.2" }
   s.dependency      'React'
 

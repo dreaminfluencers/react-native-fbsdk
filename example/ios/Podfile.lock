@@ -199,18 +199,18 @@ PODS:
     - React-cxxreact (= 0.63.3)
     - React-jsi (= 0.63.3)
   - React-jsinspector (0.63.3)
-  - react-native-fbsdk (3.0.2):
+  - react-native-fbsdk (3.0.3):
     - React
-    - react-native-fbsdk/Core (= 3.0.2)
-    - react-native-fbsdk/Login (= 3.0.2)
-    - react-native-fbsdk/Share (= 3.0.2)
-  - react-native-fbsdk/Core (3.0.2):
+    - react-native-fbsdk/Core (= 3.0.3)
+    - react-native-fbsdk/Login (= 3.0.3)
+    - react-native-fbsdk/Share (= 3.0.3)
+  - react-native-fbsdk/Core (3.0.3):
     - FBSDKCoreKit (~> 8.1)
     - React
-  - react-native-fbsdk/Login (3.0.2):
+  - react-native-fbsdk/Login (3.0.3):
     - FBSDKLoginKit (~> 8.1)
     - React
-  - react-native-fbsdk/Share (3.0.2):
+  - react-native-fbsdk/Share (3.0.3):
     - FBSDKShareKit (~> 8.1)
     - React
   - React-RCTActionSheet (0.63.3):
